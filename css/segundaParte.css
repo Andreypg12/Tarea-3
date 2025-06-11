@@ -1,0 +1,31 @@
+:root {
+    --color-primario: #4e54c8;
+    --color-secundario: #8f94fb;
+}
+
+header {
+    background: linear-gradient(90deg, var(--color-primario), var(--color-secundario));
+    padding: 30px;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+.nav-link {
+    color: var(--color-primario);
+    transition: 0.3s;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    background-color: var(--color-primario);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .nav-link{
+        border-radius: 8px;
+        padding: 10px;
+        text-align: center;
+    }
+}

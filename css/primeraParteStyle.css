@@ -1,3 +1,5 @@
+/* Esto se usa para definir variables
+ como colores que voy a usar bastante */
 :root {
     --color-primario: #4e54c8;
     --color-secundario: #8f94fb;
@@ -6,6 +8,7 @@
     --color-texto: #333;
     --color-footer: #2e2e2e;
 }
+
 
 * {
     box-sizing: border-box;
@@ -143,8 +146,9 @@ header {
 }
 
 .galeria img {
-    width: 150px;
-    height: 100px;
+    width: 180px;
+    height: 130px;
+    margin: 15px;
     object-fit: contain;
     border-radius: 8px;
     transition: 1.4s;
